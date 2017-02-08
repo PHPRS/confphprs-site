@@ -1,0 +1,23 @@
+@media (min-width:600px) {
+    .locale {
+        background: none repeat scroll 0 0 #FFFFFF;
+        opacity: 0.8;
+        top: 85%;
+        left: 0;
+        position: absolute;
+    }
+
+    .locale h4 {
+        margin: 10px 10px 10px 10px;
+    }
+}
+.about {
+    background: rgba(255, 255, 255, 0.80) none repeat scroll 0 0;
+    color: #404040 !important;
+    padding:5px;
+}
+
+.about p {
+    margin: 5px;
+    z-index: 0;
+}
