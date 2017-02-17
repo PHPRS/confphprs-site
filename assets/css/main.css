@@ -21,3 +21,7 @@
     margin: 5px;
     z-index: 0;
 }
+
+.intro-text {
+    filter: drop-shadow(2px 2px 2px black);
+}
