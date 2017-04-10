@@ -158,7 +158,7 @@ header .intro-text .skills {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
 }
 
 .navbar .navbar-nav li a:focus {
