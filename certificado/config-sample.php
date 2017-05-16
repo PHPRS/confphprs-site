@@ -24,7 +24,7 @@ define('DB_NAME', 'gera_certificado');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 
-define('JSON_FILE', 'json-sample.json');
+define('JSON_FILE', 'participant.json');
 
 /* Don't touch this unless you know what you're doing. */
 define('BASE_PATH', dirname(__FILE__));
