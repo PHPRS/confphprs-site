@@ -29,7 +29,7 @@ com as instruções dentro dele.
 
     cp config-sample.php config.php
 
-Crie um arquivo `articipant.json` usando `json-sample.json`, e o edite de acordo
+Crie um arquivo `participant.json` usando `json-sample.json`, e o edite de acordo
 com as instruções dentro dele.
 
     cp json-sample.json participant.json
