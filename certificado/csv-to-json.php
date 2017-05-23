@@ -2,19 +2,19 @@
 
 $events = [];
 $list_events = [
-    '2ª Conferência PHPRS',
+    'Conferência PHPRS 2017',
     'Workshop Segurança para aplicações web',
     'Workshop Middlewares e PSR-7',
     'Workshop Desenvolvimento de temas WordPress',
     'Workshop Docker para desenvolvedores'
 ];
-$description = "participou do _event,\ncumprindo um total de _hours horas de\n palestras e demais atividades ofertadas\n no dia _date.";
+$description = "participou do(a) _event,\ncumprindo um total de _hours horas de\n palestras e demais atividades ofertadas\n no dia _date.";
 
 foreach ($list_events as $key => $str_event) {
     $hours = 8;
     $date = '13 de maio de 2017';
 
-    if(strpos($str_event, 'Workshop')) {
+    if(strpos($str_event, 'Workshop') !== false) {
         $hours = 3;
         $date = '12 de maio de 2017';
     }

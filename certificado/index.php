@@ -116,7 +116,7 @@ if (!empty($_POST['email']) && !empty($_POST['event'])) {
                 </p>
                 <p>
                     <select name="event">
-
+                    <option value="">Selecione o evento</option>
                         <?php
                         $eventos = $adapter->getAllEvent();
                         krsort($eventos);
@@ -130,7 +130,7 @@ if (!empty($_POST['email']) && !empty($_POST['event'])) {
 
                 </p>
 
-                <p><input type="text" name="email" value="" placeholder="Informe seu email do meetup" /></p>
+                <p><input type="text" name="email" value="" placeholder="Informe seu email" /></p>
                 <p><input type="submit" value="Enviar" /></p>
             </form>
 
